@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Tip-Amount-With-React/static/css/main.d4d3d9e0.css",
+    "main.js": "/Tip-Amount-With-React/static/js/main.f919f2bd.js",
+    "index.html": "/Tip-Amount-With-React/index.html",
+    "main.d4d3d9e0.css.map": "/Tip-Amount-With-React/static/css/main.d4d3d9e0.css.map",
+    "main.f919f2bd.js.map": "/Tip-Amount-With-React/static/js/main.f919f2bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4d3d9e0.css",
+    "static/js/main.f919f2bd.js"
+  ]
+}
