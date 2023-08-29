@@ -1,0 +1,164 @@
+
+.Psection{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.SeconSection{
+    background-color: rgb(15, 71, 223);
+    width: 50%;
+}
+
+h3{
+    margin: 0;
+}
+
+.Bill{
+    margin-bottom: 20px;
+    
+}
+
+.Buttons{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btn{
+    width: 33.333333%;
+    padding: 20px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: rgb(6, 57, 116);
+    border-radius: 5px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 20px;
+    transition: 0.5s;
+    
+    
+}
+
+.btn:hover{
+    background-color: rgb(12, 53, 236);
+}
+
+.custom{
+    width: 33.333333%;
+    padding: 20px 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+    
+}
+
+.Bill_input{
+    width: 90%;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.People_input{
+    width: 90%;
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.firsSection{
+    width: 50%;
+}
+
+
+
+.Tip_Amount{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+.ToTal_person{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.SeconSection{
+    border-radius: 30px;
+}
+
+.Psection{
+    border: 3px solid rgb(220, 248, 242);
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+@media (max-width: 950px) {
+    .Psection{
+        flex-direction: column;
+    }
+
+    .firsSection{
+        margin-bottom: 30px;
+    }
+
+    .SeconSection{
+        width: 100%;
+    }
+
+    .ToTal_person{
+        margin: 0;
+        font-size: 20px;
+
+    }
+    .Tip_Amount{
+        margin: 0;
+        font-size: 20px;
+    }
+
+   
+
+    .firsSection{
+        width: 100%;
+    }
+
+    
+
+    
+  }
+
+
+
+  
